@@ -16,3 +16,5 @@ We consider the \emph{phase retrieval} problem of reconstructing a n-dimensional
         In particular, the information-theoretic transition to perfect recovery for full-rank matrices appears at alpha = 1 (real case) and alpha = 2 (complex case).                
         Secondly, we analyze the performance of the best-known polynomial time algorithm for this problem --- approximate message-passing--- establishing the existence of a statistical-to-algorithmic gap depending, again, on the spectral properties of the sensing matrix       
         Our work  provides an extensive classification of the statistical and algorithmic thresholds in high-dimensional phase retrieval for a broad class of random matrices.
+        
+Antoine Maillard, Bruno Loureiro, Florent Krzakala, Lenka Zdeborová.
