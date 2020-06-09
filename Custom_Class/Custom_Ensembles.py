@@ -24,7 +24,6 @@ class ComplexGaussianEnsemble_Normalized(Ensemble):
         return X
     
     
-#With the convention that E[|z|^2] = 1, the ensemble is the same than in the real case ! 
 class ComplexMarchenkoPasturEnsemble(Ensemble):
     def __init__(self, alpha):
         self.alpha = alpha

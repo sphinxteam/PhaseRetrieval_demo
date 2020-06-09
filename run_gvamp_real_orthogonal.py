@@ -158,7 +158,7 @@ print("This is the GVAMP for orthogonal matrices (Haar matrices and randomly sub
 max_iter = 1500
 alphas = np.linspace(1.49, 1.6, 15, endpoint = False)
 alphas = np.concatenate((alphas,np.linspace(1.6,1.8, 3)))
-alphas = np.concatenate((alphas,np.linspace(1.1, 1.49, 5 , endpoint = False))) #I put then last to see if it will be useful to run them again
+alphas = np.concatenate((alphas,np.linspace(1.1, 1.49, 5 , endpoint = False))) 
 pool = mp.Pool(processes=12) #The mp pool
 alpha_impossible = 1.49
 

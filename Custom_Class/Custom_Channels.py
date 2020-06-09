@@ -207,9 +207,3 @@ class AnalyticalComplexRealLinearChannel(Channel):
         n_eff = self.compute_n_eff(az, ax) 
         vx = n_eff / (self.alpha * ax) 
         return vx
-    
-#class ComplexRealMarchenkoPasturChannel(AnalyticalRealLinearChannel):
-class ComplexRealMarchenkoPasturChannel(AnalyticalComplexRealLinearChannel):
-    def __init__(self, alpha, name = "W"):
-        ensemble = SumRealMarchenkoPasturEnsemble(alpha = alpha)
-        super().__init__(ensemble = ensemble, name = name)
