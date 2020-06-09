@@ -6,8 +6,7 @@ We provide notebooks and codes for the paper : "Phase retrieval in high dimensio
 - The run files that were used to generate the data shown in the figures, and the associated data files.
 
  ## Abstract
-We consider the \emph{phase retrieval} problem of reconstructing a n-dimensional real or complex signal X* from m (possibly noisy) observations <img src="https://bit.ly/30pUtcW" align="center" border="0" alt="$Y_\mu = | \sum_{i=1}^n \Phi_{\mu i} X^{\star}_i/\sqrt{n}|$" width="174" height="26" />
-       , for a large class of correlated real and complex random sensing matrices Phi, in a high-dimensional setting where m,n go to infinity while alpha = m/n = O(1).
+We consider the \emph{phase retrieval} problem of reconstructing a n-dimensional real or complex signal X* from m (possibly noisy) observations of the modulus of the multiplication of a (random) sensing matrix by X*, for a large class of correlated real and complex random sensing matrices Phi, in a high-dimensional setting where m,n go to infinity while alpha = m/n = O(1).
         First, we derive sharp asymptotics for the lowest possible estimation error achievable statistically 
         and we unveil the existence of sharp phase transitions for the weak- and full-recovery thresholds as a function of the singular values of the sensing matrix.. 
         This is achieved by providing a rigorous proof of a result first obtained by the replica method from statistical mechanics.   
