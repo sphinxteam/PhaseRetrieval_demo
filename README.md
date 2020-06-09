@@ -3,7 +3,10 @@
 We provide notebooks and codes for the paper : "Phase retrieval in high dimensions: Statistical and computational phase transitions". In particular, see:
 - The notebook "example" containing an example code for the state evolution and G-VAMP algorithms in noiseless phase retrieval with a complex gaussian matrix.
 - The different notebooks containing the codes for the plots of the figures in the paper.
-- The run files that were used to generate the data shown in the figures, and the associated data files.
+- The run files that were used to generate the data shown in the figures, and the associated data files in the Data/ subfolder.
+- The Custom_Class/ subfolder contains customized classes used in the TrAMP framework. 
+
+These codes require the [TrAMP package](https://github.com/sphinxteam/tramp).
 
  ## Abstract
 We consider the \emph{phase retrieval} problem of reconstructing a n-dimensional real or complex signal X* from m (possibly noisy) observations of the modulus of the multiplication of a (random) sensing matrix by X*, for a large class of correlated real and complex random sensing matrices Phi, in a high-dimensional setting where m,n go to infinity while alpha = m/n = O(1).
