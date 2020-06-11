@@ -1,6 +1,6 @@
 # Phase retrieval in high dimensions: Statistical and computational phase transitions
 
-We provide notebooks and codes for the paper : "Phase retrieval in high dimensions: Statistical and computational phase transitions". In particular, see:
+We provide notebooks and codes for the paper : "Phase retrieval in high dimensions: Statistical and computational phase transitions" [(https://arxiv.org/abs/2006.05228)](https://arxiv.org/abs/2006.05228). In particular, see:
 - The notebook "example" containing an example code for the state evolution and G-VAMP algorithms in noiseless phase retrieval with a complex gaussian matrix.
 - The different notebooks containing the codes for the plots of the figures in the paper.
 - The run files that were used to generate the data shown in the figures, and the associated data files in the Data/ subfolder.
